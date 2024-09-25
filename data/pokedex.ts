@@ -17614,6 +17614,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		formeOrder: ["Tatsugiri", "Tatsugiri-Droopy", "Tatsugiri-Stretchy"],
 		eggGroups: ["Water 2"],
 	},
+	tatsuikagai: {
+		num: 1027,
+		name: "Tatsuikagai",
+		types: ["Dragon", "Water"],
+		baseStats: {hp: 98, atk: 50, def: 67, spa: 135, spd: 95, spe: 105},
+		abilities: {0: "Stable"},
+		heightm: 0.8,
+		weightkg: 25,
+		color: "Red",
+		eggGroups: ["Water 2"],
+	},
 	annihilape: {
 		num: 979,
 		name: "Annihilape",
