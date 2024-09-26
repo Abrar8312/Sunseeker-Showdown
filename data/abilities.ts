@@ -4384,6 +4384,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: 3,
 	},
+stable: {
+    onBoost(boost, target, source, effect) {
+        // Loop through each stat being changed and set its boost to 0.
+        for (const stat in boost) {
+            boost[stat] = 0;
+        }
+        if (effect.id !== 'zpower') {
+            this.add('-fail', target, 'unboost', '[from] ability: Stable', '[of] ' + target);
+        }
+    },
+    name: "Stable",
+    rating: 2,
+    num: -1, // Custom abilities should have a unique number, so use something unused
+},
+
+	
+	},
 	stakeout: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender) {
