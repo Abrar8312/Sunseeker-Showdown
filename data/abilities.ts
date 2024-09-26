@@ -4397,9 +4397,6 @@ stable: {
     name: "Stable",
     rating: 2,
     num: -1, // Custom abilities should have a unique number, so use something unused
-},
-
-	
 	},
 	stakeout: {
 		onModifyAtkPriority: 5,
