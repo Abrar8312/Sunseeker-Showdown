@@ -3204,6 +3204,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 		natDexTier: "RU",
 	},
+	maracatune: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+	},
 	dwebble: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -5311,6 +5316,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Uber",
 	},
 	tatsugiri: {
+		tier: "PU",
+		doublesTier: "DUber",
+		natDexTier: "RU",
+	},
+	tatsuikagai: {
 		tier: "PU",
 		doublesTier: "DUber",
 		natDexTier: "RU",
