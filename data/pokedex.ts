@@ -17619,7 +17619,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Tatsuikagai",
 		types: ["Dragon", "Water"],
 		baseStats: {hp: 98, atk: 50, def: 67, spa: 135, spd: 95, spe: 105},
-		abilities: {0: "Adaptability"},
+		abilities: {0: "Stable"},
 		heightm: 0.8,
 		weightkg: 25,
 		color: "Red",
