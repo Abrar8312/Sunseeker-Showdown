@@ -10044,7 +10044,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 4,
 		weightkg: 28,
 		color: "Green",
-		prevo: ["maractus"]
+		prevo: "maractus"
 		eggGroups: ["Grass"],
 	},
 	dwebble: {
