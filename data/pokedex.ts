@@ -10032,10 +10032,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1,
 		weightkg: 28,
 		color: "Green",
-		evos: ["Maracactune"]
+		evos: ["Maracactune"],
 		eggGroups: ["Grass"],
 	},
-	Maracactune: {
+	maracactune: {
 		num: 1026,
 		name: "Maracactune",
 		types: ["Grass"],
@@ -10044,7 +10044,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 4,
 		weightkg: 28,
 		color: "Green",
-		prevo: "maractus"
+		prevo: "maractus",
+		evoLevel: 30,
 		eggGroups: ["Grass"],
 	},
 	dwebble: {
@@ -17622,7 +17623,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		abilities: {0: "Stable"},
 		heightm: 0.8,
 		weightkg: 25,
-		color: "Red",
+		prevo: "tatsugiri",
+		evoLevel: 40,
 		eggGroups: ["Water 2"],
 	},
 	annihilape: {
