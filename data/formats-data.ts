@@ -3204,7 +3204,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 		natDexTier: "RU",
 	},
-	maracatune: {
+	maracactune: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "RU",
